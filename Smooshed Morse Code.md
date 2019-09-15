@@ -16,16 +16,14 @@ An obvious problem we encounter is that decoding is ambiguous. For instance, `bi
 
 ### My Code
 
-<code>
-def encode_morse(word)<br>
-&#160;morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."<br>
-&#160;alphabet = "abcdefghijklmnopqrstuvwxyz'<br>
-&#160;morse_arr = morse.split(" ")<br>
-&#160;alpha_arr = alphabet.split("")<br>
-&#160;h = Hash[alpha_arr.zip morse_arr]<br>
+<code>def encode_morse(word)</code><br>
+<code>&#160;morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."</code><br>
+<code>&#160;alphabet = "abcdefghijklmnopqrstuvwxyz'</code><br>
+<code>&#160;morse_arr = morse.split(" ")</code><br>
+<code>&#160;alpha_arr = alphabet.split("")</code><br>
+<code>&#160;h = Hash[alpha_arr.zip morse_arr]</code><br>
  <br> 
-&#160;word.downcase.split('').each { |m|<br>
-&#160;&#160;print h[m]<br>
-&#160;}<br>
-end
-</code>
+<code>&#160;word.downcase.split('').each { |m|</code><br>
+<code>&#160;&#160;print h[m]</code><br>
+<code>&#160;}</code><br>
+<code>end</code>
