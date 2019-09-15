@@ -18,7 +18,7 @@ smorse("three") => "-.....-..."
 An obvious problem we encounter is that decoding is ambiguous. For instance, `bits` and `three` encode to the same string, so you can't tell which one you would decode to without more information.
 
 ### My Code
-``
+`
 def encode_morse(word)
   morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."
   alphabet = "abcdefghijklmnopqrstuvwxyz'
@@ -30,4 +30,4 @@ def encode_morse(word)
     print h[m]
   }
 end
-``
+`
