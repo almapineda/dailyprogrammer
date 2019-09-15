@@ -13,9 +13,11 @@ Normally, you would indicate where one letter ends and the next begins, for inst
 smorse("sos") => "...---..."</code><br><code>smorse("daily") => "-...-...-..-.--"</code><br><code>smorse("programmer") => ".--..-.-----..-..-----..-."</code><br><code>smorse("bits") => "-.....-..."</code><br><code>smorse("three") => "-.....-..."
 </code>
 
+
 An obvious problem we encounter is that decoding is ambiguous. For instance, `bits` and `three` encode to the same string, so you can't tell which one you would decode to without more information.
 
 ### My Code
+
 <code>
 def encode_morse(word)<br>
 &#160;morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."<br>
