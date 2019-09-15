@@ -7,21 +7,17 @@ For the purpose of this challenge, Morse code represents every letter as a seque
 Normally, you would indicate where one letter ends and the next begins, for instance with a space between the letters' codes, but for this challenge, just smoosh all the coded letters together into a single string consisting of only dashes and dots.
 
 **Examples**:
-`smorse("sos") => "...---..."
-
+``smorse("sos") => "...---..."
 smorse("daily") => "-...-...-..-.--"
-
 smorse("programmer") => ".--..-.-----..-..-----..-."
-
 smorse("bits") => "-.....-..."
-
-smorse("three") => "-.....-..."`
+smorse("three") => "-.....-..."``
 
 An obvious problem we encounter is that decoding is ambiguous. For instance, `bits` and `three` encode to the same string, so you can't tell which one you would decode to without more information.
 
 ### My Code
 
-`def encode_morse(word)
+``def encode_morse(word)
   morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."
   alphabet = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'
   morse_array = morse.split(' ')
@@ -31,4 +27,4 @@ An obvious problem we encounter is that decoding is ambiguous. For instance, `bi
   word.downcase.split('').each { |m|
     print h[m]
   }
-end`
+end``
