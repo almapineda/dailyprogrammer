@@ -27,3 +27,5 @@ An obvious problem we encounter is that decoding is ambiguous. For instance, `bi
 <code>&#160;&#160;print h[m]</code><br>
 <code>&#160;}</code><br>
 <code>end</code>
+
+A more personal challenge was placed between a friend and I. We were both to complete this challenge in a language completely unfamiliar to us. Therefore the challenge was completed in Ruby. I hated it.
