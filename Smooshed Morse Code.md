@@ -8,6 +8,7 @@ For the purpose of this challenge, Morse code represents every letter as a seque
 Normally, you would indicate where one letter ends and the next begins, for instance with a space between the letters' codes, but for this challenge, just smoosh all the coded letters together into a single string consisting of only dashes and dots.
 
 **Examples**:
+
 <code>
 smorse("sos") => "...---..."
 
