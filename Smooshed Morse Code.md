@@ -17,7 +17,7 @@ An obvious problem we encounter is that decoding is ambiguous. For instance, `bi
 
 ### My Code
 
-``def encode_morse(word)
+<p><code>def encode_morse(word)
   morse = ".- -... -.-. -.. . ..-. --. .... .. .--- -.- .-.. -- -. --- .--. --.- .-. ... - ..- ...- .-- -..- -.-- --.."
   alphabet = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'
   morse_array = morse.split(' ')
@@ -27,4 +27,4 @@ An obvious problem we encounter is that decoding is ambiguous. For instance, `bi
   word.downcase.split('').each { |m|
     print h[m]
   }
-end``
+end</code></p>
