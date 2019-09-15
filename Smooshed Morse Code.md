@@ -10,7 +10,7 @@ Normally, you would indicate where one letter ends and the next begins, for inst
 **Examples**:
 
 <code>
-smorse("sos") => "...---..."<br />smorse("daily") => "-...-...-..-.--"
+smorse("sos") => "...---..."</code><br><code>smorse("daily") => "-...-...-..-.--"</code><br>
 
 smorse("programmer") => ".--..-.-----..-..-----..-."<br>
 smorse("bits") => "-.....-..."<br>
