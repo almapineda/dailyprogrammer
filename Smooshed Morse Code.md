@@ -1,5 +1,6 @@
 # Challenge #380 -- "Smooshed Morse Code"
 **Difficulty:** EASY
+
 **Source:** [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/comments/cmd1hb/20190805_challenge_380_easy_smooshed_morse_code_1/)
 
 For the purpose of this challenge, Morse code represents every letter as a sequence of 1-4 characters, each of which is either `.` (dot) or `-` (dash). The code for the letter `a` is `.-`, `b` is `-...`, etc. The codes for each letter were given.
@@ -8,8 +9,10 @@ Normally, you would indicate where one letter ends and the next begins, for inst
 
 **Examples**:
 <code>
-smorse("sos") => "...---..."<br />
-smorse("daily") => "-...-...-..-.--"<br>
+smorse("sos") => "...---..."
+ 
+smorse("daily") => "-...-...-..-.--"
+
 smorse("programmer") => ".--..-.-----..-..-----..-."<br>
 smorse("bits") => "-.....-..."<br>
 smorse("three") => "-.....-..."<br>
